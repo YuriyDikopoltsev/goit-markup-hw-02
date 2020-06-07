@@ -28,10 +28,6 @@
 .body .web:focus {
   color: var(--title-text-color);
 }
-.mail:hover,
-.mail:focus {
-  color: var(--title-text-color);
-}
 .web {
   color: var(--accent-color);
 }
@@ -100,17 +96,6 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.hero-order {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-}
 .activities .link {
   font-style: normal;
   font-weight: bold;
@@ -127,7 +112,7 @@
   line-height: 24px;
   letter-spacing: 0.03em;
 }
-.team h3 {
+.team .member {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -215,4 +200,8 @@
 }
 .hidden-title {
   display: none;
+}
+.link .title:hover,
+.link .title:focus {
+  color: var(--accent-color);
 }
