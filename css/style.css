@@ -51,6 +51,10 @@
 .address .link {
   color: #757575;
   font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .main .title {
   text-align: center;
@@ -68,6 +72,7 @@
   color: var(--button-accent-color);
 }
 .button {
+  font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -200,8 +205,4 @@
 }
 .hidden-title {
   display: none;
-}
-.link .title:hover,
-.link .title:focus {
-  color: var(--accent-color);
 }
